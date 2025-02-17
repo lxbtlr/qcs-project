@@ -4,3 +4,6 @@
 [submodule "HotSpot"]
 	path = HotSpot
 	url = https://github.com/uvahotspot/HotSpot.git
+[submodule "qiskit-metal"]
+	path = qiskit-metal
+	url = git@github.com:qiskit-community/qiskit-metal.git
