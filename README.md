@@ -1,3 +1,10 @@
+# TODO:
+- [ ] Make simple database of error data across all backends 
+- [ ] Create shared representation from qmetal output to hotspot input
+    - [ ] try not to make a full parser for this
+- [ ] look for simpliest implementation of workflow
+
+
 ## Reconciling Quantum system decay 
 Using class simulation tooling to augment Mapomatic error mapping passes.
 
@@ -15,7 +22,7 @@ Using class simulation tooling to augment Mapomatic error mapping passes.
 
 [default cost function](https://github.com/qiskit-community/mapomatic/blob/bd8e5d7254dadaed2f576143acbd62cae138578d/mapomatic/layouts.py#L215-L250)
 
-
+### [Get Error Information](https://github.com/Qiskit/qiskit/blob/ff15ce40479324449ec8ad8205c90d2a7b02fb11/qiskit/visualization/gate_map.py#L1385C9-L1432C21)(implemented in `qiskit.visualization.gate\_map.py`)
 
 ## QISKIT METAL
 - [ ] Get pyaedt working
